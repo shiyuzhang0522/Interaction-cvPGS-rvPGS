@@ -50,9 +50,6 @@ Scripts used to generate figures and tables presented in the manuscript are incl
 📬 **Contact**
 For questions regarding this repository, please contact: **[shiyuzhang0522@gmail.com](mailto:shiyuzhang0522@gmail.com)**
 
-Here’s a clean **Usage** section you can paste directly into your README to document the simplified script:
-
----
 
 # 4. Usage
 
