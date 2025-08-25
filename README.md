@@ -47,11 +47,6 @@ Scripts used to generate figures and tables presented in the manuscript are incl
 
 ---
 
-📬 **Contact**
-
-For questions regarding this repository, please contact: **[shiyuzhang0522@gmail.com](mailto:shiyuzhang0522@gmail.com)**
-
-
 # 4. Usage
 
 (1) RICE-pipeline/01_pheno_and_splits.R
@@ -76,8 +71,8 @@ For rare-variant association analyses, we recommend using the **STAARpipeline**.
 A step-by-step tutorial is available here: [STAARpipeline-Tutorial](https://github.com/xihaoli/STAARpipeline-Tutorial).  
 
 **References**  
-[1] *A framework for detecting noncoding rare variant associations of large-scale whole-genome sequencing studies.* Nature Methods, 19(12), 1599–1611 (2022). PMID: 36303018; PMCID: PMC10008172; DOI: [10.1038/s41592-022-01640-x](https://doi.org/10.1038/s41592-022-01640-x).  
-[2] *Dynamic incorporation of multiple in silico functional annotations empowers rare variant association analysis of large whole-genome sequencing studies at scale.* Nature Genetics, 52(9), 969–983 (2020). PMID: 32839606; PMCID: PMC7483769; DOI: [10.1038/s41588-020-0676-4](https://doi.org/10.1038/s41588-020-0676-4).  
+>[1] *A framework for detecting noncoding rare variant associations of large-scale whole-genome sequencing studies.* Nature Methods, 19(12), 1599–1611 (2022). PMID: 36303018; PMCID: PMC10008172; >DOI: [10.1038/s41592-022-01640-x](https://doi.org/10.1038/s41592-022-01640-x).  
+>[2] *Dynamic incorporation of multiple in silico functional annotations empowers rare variant association analysis of large whole-genome sequencing studies at scale.* Nature Genetics, 52(9), >969–983 (2020). PMID: 32839606; PMCID: PMC7483769; DOI: [10.1038/s41588-020-0676-4](https://doi.org/10.>1038/s41588-020-0676-4).  
 
 **Note**  
 After running STAARpipeline and preparing gene-based rare variant masks, you can calculate ensemble rvPGS across cross-validation folds.
@@ -92,9 +87,15 @@ This folder contains scripts **01–10**, which reproduce the main figures and r
 - **05** Genome-wide interaction analysis between cvPGS and rvPGS, including group-based cutoffs.  
 - **06** Test interactions between rare-variant burden masks and cvPGS, with visualization of slopes.  
 - **07** Fine-mapping sentinel variants using [fine-mapping-inf](https://github.com/FinucaneLab/fine-mapping-inf)  
-  (Ref: Cui R, Elzur RA, Kanai M, Ulirsch JC, Weissbrod O, Daly MJ, Neale BM, Fan Z, Finucane HK.  
-  *Improving fine-mapping by modeling infinitesimal effects.* Nat Genet. 2024;56(1):162–169. doi: [10.1038/s41588-023-01597-3](https://doi.org/10.1038/s41588-023-01597-3)) with region-specific LD and summary statistics.  
+>  (Ref: Cui R, Elzur RA, Kanai M, Ulirsch JC, Weissbrod O, Daly MJ, Neale BM, Fan Z, Finucane HK.  
+>  *Improving fine-mapping by modeling infinitesimal effects.* Nat Genet. 2024;56(1):162–169. doi: [10.1038/s41588-023-01597-3](https://doi.org/10.1038/s41588-023-01597-3)) with region-specific LD and summary statistics.  
 - **08** Variant-level interaction analysis between common causal variants and rare-variant burden.  
 - **09** Predict effects of **rs2853677** on transcription factor binding motifs using [motifbreakR](https://bioconductor.org/packages/motifbreakR)  
   (see [motifbreakR vignette](https://bioconductor.org/packages/devel/bioc/vignettes/motifbreakR/inst/doc/motifbreakR-vignette.html)).  
 - **10** Combine cvPGS and rvPGS into additive and interaction models to assess predictive improvement.  
+
+---
+
+📬 **Contact**
+
+For questions regarding this repository, please contact: **[shiyuzhang0522@gmail.com](mailto:shiyuzhang0522@gmail.com)**
