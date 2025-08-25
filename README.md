@@ -88,7 +88,8 @@ This folder contains scripts **01–10**, which reproduce the main figures and r
 - **06** Test interactions between rare-variant burden masks and cvPGS, with visualization of slopes.  
 - **07** Fine-mapping sentinel variants using [fine-mapping-inf](https://github.com/FinucaneLab/fine-mapping-inf)  
 >  Ref: Cui R, Elzur RA, Kanai M, Ulirsch JC, Weissbrod O, Daly MJ, Neale BM, Fan Z, Finucane HK.  
->  *Improving fine-mapping by modeling infinitesimal effects.* Nat Genet. 2024;56(1):162–169. doi: [10.1038/s41588-023-01597-3](https://doi.org/10.1038/s41588-023-01597-3) with region-specific LD and summary statistics.  
+>  *Improving fine-mapping by modeling infinitesimal effects.* Nat Genet. 2024;56(1):162–169. doi: [10.1038/s41588-023-01597-3](https://doi.org/10.1038/s41588-023-01597-3) 
+with region-specific LD and summary statistics.  
 - **08** Variant-level interaction analysis between common causal variants and rare-variant burden.  
 - **09** Predict effects of **rs2853677** on transcription factor binding motifs using [motifbreakR](https://bioconductor.org/packages/motifbreakR)  
   (see [motifbreakR vignette](https://bioconductor.org/packages/devel/bioc/vignettes/motifbreakR/inst/doc/motifbreakR-vignette.html)).  
