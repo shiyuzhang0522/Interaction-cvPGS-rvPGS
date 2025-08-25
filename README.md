@@ -32,6 +32,7 @@ It provides the workflows and scripts required to reproduce the construction of 
 # 3. Code
 
 **(1) RICE pipeline**
+
 We followed the **RICE pipeline** to derive ensemble cvPGS and rvPGS, based on:
 
 > Williams J, Chen T, Hua X, Wong W, Yu K, Kraft P, Li X, Zhang H.
@@ -41,6 +42,7 @@ We followed the **RICE pipeline** to derive ensemble cvPGS and rvPGS, based on:
 For additional details, see the official repository: [RareVariantPRS](https://github.com/jwilliams10/RareVariantPRS.git).
 
 **(2) Manuscript analyses**
+
 Scripts used to generate figures and tables presented in the manuscript are included in this repository.
 
 ---
